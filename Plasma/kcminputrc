@@ -1,0 +1,18 @@
+[Keyboard]
+NumLock=1
+RepeatDelay=300
+RepeatRate=100
+
+[Libinput][1226][189][LITEON Dell Wireless Device Mouse]
+PointerAcceleration=0.800
+ScrollFactor=3
+
+[Libinput][1267][12734][ELAN06FA:00 04F3:31BE Touchpad]
+LmrTapButtonMap=false
+NaturalScroll=true
+PointerAcceleration=1.000
+ScrollFactor=1.5
+TapDragLock=false
+
+[Mouse]
+cursorTheme=default

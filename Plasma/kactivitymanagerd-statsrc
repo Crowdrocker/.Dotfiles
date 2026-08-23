@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-2-41420b54-4a05-4b56-a63c-d4555c91b111]
+ordering=applications:kitty.desktop,applications:foot.desktop,preferred://browser,applications:systemsettings.desktop,applications:org.kde.kdeconnect.app.desktop,applications:yazi.desktop,applications:timeshift-gtk.desktop,applications:mpv.desktop,applications:nvim.desktop,applications:klassy-settings.desktop,applications:org.telegram.desktop.desktop,applications:gparted.desktop,applications:localsend.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-2-global]
+ordering=applications:kitty.desktop,applications:foot.desktop,preferred://browser,applications:systemsettings.desktop,applications:org.kde.kdeconnect.app.desktop,applications:yazi.desktop,applications:timeshift-gtk.desktop,applications:mpv.desktop,applications:nvim.desktop,applications:klassy-settings.desktop,applications:org.telegram.desktop.desktop,applications:gparted.desktop,applications:localsend.desktop
