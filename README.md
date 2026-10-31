@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hobbyist dotfiles
+# Snaps-OS dotfiles
 **Beautifully crafted desktop rice for Arch Linux**
 
 ![Arch](https://img.shields.io/badge/OS-Arch_Linux-1793d1?style=flat-square&logo=archlinux&logoColor=white)
