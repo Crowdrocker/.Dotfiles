@@ -28,7 +28,7 @@ fi
 printf "[+] Creating config directories...\n"
 mkdir -p ~/.local/share/fonts
 
-DOTFILES="$HOME/hobbyist-dotfiles"
+DOTFILES="$HOME/.Dotfiles"
 
 if [ -d "$DOTFILES" ]; then
   printf "[+] Applying dotfiles...\n"
