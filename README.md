@@ -117,14 +117,14 @@
 sudo pacman -Syu --needed --noconfirm git
 ```
 ```bash
-cd ~ && git clone https://github.com/BlackSparkz/hobbyist-dotfiles.git
+cd ~ && git clone https://github.com/Crowdrocker/.Dotfiles.git
 ```
 ```bash
-bash ~/hobbyist-dotfiles/install.sh
+bash ~/.Dotfiles/install.sh
 ```
 ### One-liner
 ```bash
-sudo pacman -Syu --needed --noconfirm git && cd ~ && git clone https://github.com/BlackSparkz/hobbyist-dotfiles.git && bash ~/hobbyist-dotfiles/install.sh
+sudo pacman -Syu --needed --noconfirm git && cd ~ && git clone https://github.com/Crowdrocker/.Dotfiles.git && bash ~/.Dotfiles/install.sh
 ```
 
 ### Stow conflicts
@@ -132,15 +132,15 @@ sudo pacman -Syu --needed --noconfirm git && cd ~ && git clone https://github.co
 If GNU Stow reports conflicts, use the helper directly:
 
 ```bash
-bash ~/hobbyist-dotfiles/stow-configs.sh --dry-run
+bash ~/.Dotfiles/stow-configs.sh --dry-run
 ```
 
 ```bash
-bash ~/hobbyist-dotfiles/stow-configs.sh --backup-conflicts
+bash ~/.Dotfiles/stow-configs.sh --backup-conflicts
 ```
 
 ```bash
-bash ~/hobbyist-dotfiles/stow-configs.sh --adopt
+bash ~/.Dotfiles/stow-configs.sh --adopt
 ```
 
 `--adopt` can overwrite existing files, so only use it when you intend to merge local state into the repo.
