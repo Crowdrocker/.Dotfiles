@@ -10,20 +10,21 @@
 
 </div>
 
-## Niri
-> [Niri](https://github.com/YaLTeR/niri) is a scrollable-tiling Wayland compositor written in Rust. It offers a unique approach to window management compared to traditional tiling compositors.
+## Compositors & Shells
+* **Niri**: Scrollable-tiling Wayland compositor written in Rust.
+* **Hyprland**: Independent, dynamic tiling Wayland compositor.
+* **MangoWM**: Lightweight, fast Wayland compositor.
+* **Umbriel**: Modular, performance-oriented Wayland window manager.
+* **Noctalia**: Integrated desktop panel, notification layer, widget framework, and system shell.
 
-## Hyprland
-> [Hyprland](https://github.com/hyprwm/Hyprland) is an independent, highly customizable, dynamic tiling Wayland compositor without sacrificing its looks.
+## Components & Keybindings
+This configuration features components like Fastfetch, Awww, Foot/Kitty, Fish, Neovim/NvChad, Rofi, Btop, Yazi, Wlogout, MPV, and Cava, mapped to standard Super-key bindings for terminals, launchers, and system controls.
 
-## MangoWM
-> [MangoWM](https://github.com/mangowm/mango) is as lightweight as dwl and can be built completely within a few seconds. Despite this, Mango does not compromise on functionality.
+## Installation
+> [!IMPORTANT]
+> Review the package list before running `install.sh`. Umbriel, Niri, and Hyprland are included by default, with Umbriel set as the active session.
 
-## DriftWM
-> [DriftWM](https://github.com/malbiruk/driftwm) is a trackpad-first infinite canvas Wayland compositor.
-
-## Qtile
-> `No longer maintained` `Skill issue` [Qtile](https://github.com/qtile/qtile/) is a full-featured, hackable tiling window manager written and configured in Python
+The installation relies on **GNU Stow** (`~/.Dotfiles/`) with support for dry-runs, backups, or adoption.
 
 ### Curious about what it looks like? Here's a glimpse.
 
