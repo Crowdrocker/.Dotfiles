@@ -9,3 +9,5 @@ include "Modules/Layout.kdl"
 include "Modules/Autostart.kdl"
 include "Modules/Keybinds.kdl"
 include "Modules/Others.kdl"
+
+include "noctalia.kdl"

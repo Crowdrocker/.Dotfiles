@@ -71,10 +71,10 @@ if [[ "$init" == "systemd" ]]; then
   sudo systemctl enable --now bluetooth.service
   sudo rfkill unblock bluetooth || true
 
-  printf "[+] Setting Niri as default...\n"
-  if [[ -f "$HOME/.config/systemd/user/niri.service" ]]; then
+  printf "[+] Setting umbriel as default...\n"
+  if [[ -f "$HOME/.config/systemd/user/umbriel.service" ]]; then
     systemctl --user daemon-reload
-    systemctl --user enable niri.service
+    systemctl --user enable umbriel.service
   fi
 
   printf "[+] Enabling mako sound...\n"

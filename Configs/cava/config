@@ -2,6 +2,7 @@
 live-config = 1
 
 [color]
+theme = "noctalia"
 gradient = 1
 gradient_color_1 = '#94e2d5'
 gradient_color_2 = '#89dceb'

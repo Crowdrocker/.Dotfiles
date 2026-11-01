@@ -3,7 +3,7 @@
 # font-family = JetBrainsMono Nerd Font
 font-family = Google Sans Code NF
 font-size = 14
-theme = Dracula
+theme = noctalia
 clipboard-read = allow
 copy-on-select = clipboard
 window-decoration = none

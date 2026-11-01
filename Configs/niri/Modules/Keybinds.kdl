@@ -1,4 +1,5 @@
 binds {
+
     Mod+A {spawn-sh "bash $HOME/.config/Scripts/auto_detect_terminal.sh";}
     Mod+B {spawn "librewolf";}
     Mod+C {spawn-sh "bash $HOME/.config/Scripts/rofi_clipboard.sh";}
@@ -58,7 +59,8 @@ binds {
     Mod+Alt+B {spawn "helium-browser";}
     Mod+Alt+N {spawn-sh "pkill thunar || thunar";}
     Mod+Shift+R {spawn-sh "bash $HOME/.config/Scripts/screen_recorder.sh";}
-    Mod+Space {spawn-sh "pkill rofi || rofi -show drun";}
+    Mod+Space { spawn-sh "noctalia msg panel-toggle launcher"; }
+    Mod+Alt+Space {spawn-sh "pkill rofi || rofi -show drun";}
     Shift+Return {spawn-sh "pkill aichat || foot --app-id aichat -e aichat";}
     Alt+Return {spawn-sh "bash $HOME/.config/Scripts/dashboard_toggle.sh";}
     Mod+Return {spawn-sh "bash $HOME/.config/Scripts/auto_detect_terminal.sh";}
