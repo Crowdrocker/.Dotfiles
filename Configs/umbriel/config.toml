@@ -23,7 +23,6 @@ files = [
   "user/keybinds.toml",
   "user/layerrules.toml",
   "user/layout.toml",
-  "user/noctalia.toml",
   "user/output.toml",
   "user/overview.toml",
   "user/windowrules.toml",
@@ -40,6 +39,7 @@ files = [
 
 [effects]
 border = "spectrum"
+
 
 
 
