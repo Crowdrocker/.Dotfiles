@@ -459,6 +459,7 @@ yaru-icon-theme
 yazi
 ydotool
 yt-dlp
+zam-plugins
 zoxide
 zram-generator
 zsh
